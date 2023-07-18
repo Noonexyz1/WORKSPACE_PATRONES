@@ -7,6 +7,17 @@ public class ClaseObservable implements Observable {
 
     private List<Observador> listaObservadores = new ArrayList<>();
 
+    public ClaseObservable(){}
+
+
+    //Metodo de ejemplo
+    public void algunaLogica(){
+        //por ejemplo, subir la potencia del motor
+        notificarALosObservadores();
+    }
+
+
+
 
     @Override
     public void addObservador(Observador o) {
