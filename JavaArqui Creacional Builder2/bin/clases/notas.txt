@@ -1,0 +1,24 @@
+Se aplica el patron de diseño Builder a un proyecto llamado Pizzeria
+
+Builder 4 componentes principales
+	Clase Director
+	Clase Producto
+	Clase Abstracta Builder
+	Varias Clases Concrete Builders
+	
+
+Builder siempre se caracteriza por CONSTRUIR OBJETOS (NO objetos de varias clases),
+sino OBJETOS DE UNA CLASE EN ESPECIFICO (de la clase que es la Clase Producto(Pizza)).
+Solamente se van a crear objetos de la Clase Pizza.
+
+Lo que hacen los Concrete Builders es asignarle valores predeterminados a tales 
+objetos
+
+Un Abstrac Builder se caracteriza por tener:
+	un objeto de la Clase Producto.
+	Un metodo que devuelva el objeto de la clase producto
+	Un metodo vacio para instanciar un objeto de la clase producto
+	Metodos Abstractos que se encargan de asignar valores predeterminados, sin definirlos	
+
+La Clase Director se encarga de gestionar la creacion del producto.
+	
