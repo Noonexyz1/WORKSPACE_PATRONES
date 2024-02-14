@@ -1,22 +1,22 @@
 package org.example;
 
-import org.example.decorador.EstudianteImpl;
-import org.example.decorador.EstudianteWrapper;
+import org.example.decorador.BasicStudent;
+import org.example.decorador.ChessStudent;
+import org.example.decorador.SportsStudent;
+import org.example.decorador.interfaces.Student;
 
 public class Main {
     public static void main(String[] args) {
+        Student basicStudent = new BasicStudent();
+        basicStudent.study(); // Salida: "Basic student is studying."
 
-        EstudianteImpl est1 = new EstudianteImpl(100, "Pitter Parker");
-        est1.setMensaje("Estoy estudiando");
-        System.out.println(est1.getMensaje());
+        basicStudent = new ChessStudent(basicStudent);
+        basicStudent.study(); // Salida: "Basic student is studying. Chess student also plays chess."
 
-        EstudianteWrapper est1Pod = new EstudianteWrapper(est1);
-        System.out.println(est1Pod.getEstudiante().getMensaje());
 
-        est1Pod.getEstudiante().setMensaje("Estoy estudiando con poderes de trepar");
-        System.out.println(est1.getMensaje());
+        basicStudent = new SportsStudent(basicStudent);
+        basicStudent.study();
 
-        System.out.println(est1Pod.getEstudiante().getMensaje());
 
     }
 
