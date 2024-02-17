@@ -1,5 +1,6 @@
 package org.example.adapter;
 
+//NO TOCAR
 public class LamparaInglesa {
     //Lamentablemente nuestra Lampara inglesa es un código creado por un programador ajeno a la
     // empresa y construyo lo que le dio la gana. Así son las cosas.
