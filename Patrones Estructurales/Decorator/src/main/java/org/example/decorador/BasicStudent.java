@@ -1,8 +1,9 @@
 package org.example.decorador;
 
-import org.example.decorador.interfaces.Student;
+import org.example.decorador.interfaces.Aprendible;
 
-public class BasicStudent implements Student {
+//NO TOCAR
+public class BasicStudent implements Aprendible {
     @Override
     public void study() {
         System.out.println("Basic student is studying.");
