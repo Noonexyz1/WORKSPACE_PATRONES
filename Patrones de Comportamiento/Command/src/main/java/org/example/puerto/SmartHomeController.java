@@ -1,6 +1,6 @@
 package org.example.puerto;
 
-//Clase invocadora
+//Clase Invocadora (no es un adapter por no implementar una interfaz con reglas)
 public class SmartHomeController {
     private Command command;
 

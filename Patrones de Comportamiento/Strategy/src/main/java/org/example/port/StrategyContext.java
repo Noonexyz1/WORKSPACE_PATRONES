@@ -1,7 +1,8 @@
-package org.example;
+package org.example.port;
 
-//Clase CONTEXTO parecido a un Adapter
+//Clase CONTEXTO parecido a un Adapter (no es un adapter por no implementar una interfaz con reglas)
 public class StrategyContext {
+
     private PayStrategy payStrategy;
 
     //Este constructor es unicamente para evitar nulls, es simplemente optativo

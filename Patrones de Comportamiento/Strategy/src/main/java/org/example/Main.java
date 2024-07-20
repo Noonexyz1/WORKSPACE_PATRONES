@@ -1,5 +1,10 @@
 package org.example;
 
+import org.example.implement.PayByCreditCard;
+import org.example.implement.PayByPayPal;
+import org.example.port.PayStrategy;
+import org.example.port.StrategyContext;
+
 public class Main {
     public static void main(String[] args) {
         //Codigo Cliente

@@ -1,4 +1,6 @@
-package org.example;
+package org.example.implement;
+
+import org.example.port.PayStrategy;
 
 public class PayByCreditCard implements PayStrategy {
 
