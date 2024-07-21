@@ -1,8 +1,8 @@
-package org.example.adapter;
+package org.example.adapter.implService;
 
-import org.example.adapter.interfaces.Conectable;
+import org.example.adapter.port.Conectable;
 
-public class Ordenador implements Conectable {
+public class Lampara implements Conectable {
 
     private boolean encendida;
 

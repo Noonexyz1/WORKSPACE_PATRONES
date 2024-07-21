@@ -1,4 +1,4 @@
-package org.example.adapter;
+package org.example.adapter.serviceIncompatible;
 
 //NO TOCAR
 public class LamparaInglesa {

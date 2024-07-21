@@ -1,4 +1,4 @@
-package org.example.adapter.interfaces;
+package org.example.adapter.port;
 
 public interface Conectable {
     boolean estaEncendida();
