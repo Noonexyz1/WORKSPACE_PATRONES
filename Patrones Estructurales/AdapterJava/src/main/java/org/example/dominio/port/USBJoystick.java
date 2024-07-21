@@ -1,4 +1,4 @@
-package org.example.dominio;
+package org.example.dominio.port;
 
 public interface USBJoystick {
     void connectToUSB();
