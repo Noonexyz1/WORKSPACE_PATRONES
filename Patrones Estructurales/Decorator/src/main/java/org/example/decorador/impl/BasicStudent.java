@@ -1,6 +1,6 @@
-package org.example.decorador;
+package org.example.decorador.impl;
 
-import org.example.decorador.interfaces.Aprendible;
+import org.example.decorador.port.Aprendible;
 
 //NO TOCAR
 public class BasicStudent implements Aprendible {
